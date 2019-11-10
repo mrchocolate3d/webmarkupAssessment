@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -6,12 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="This website is about what life is like in harlem and also gives a list of 10 clubs that you can enjoy while you are in haarlem" />
     <title>index</title>
-    <link rel="stylesheet" href="./css/indexStylesheet.css" />
+    <link rel="stylesheet" href="./css/style.css" />
 
 </head>
 <body>
     <nav class="navbar">
-        <ul class="list" >
+        <ul class="list">
             <li><a href="#maincontent">MainContent</a></li>
             <li><a href="#secondarycontent">SecondaryContent</a></li>
             <li><a href="#sportcontent">SportContent</a></li>
@@ -20,18 +20,20 @@
         </ul>
 
     </nav>
+    <!-- Main tag wih all all of my content inside -->
 
     <main>
-
+        <!-- Information about Haarlema and the tourist destinataions inhte main and secondary content -->
         <article id="maincontent">
-            <header class="vidhead">
-                <a class="overlay">
-                <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
-                    <source src="./img/goal.mp4" type="video/mp4">
+            <!--Background video-->
+            <header>
+
+                <video autoplay muted loop id="myVideo">
+                    <source src="./img/footballvid.mp4" type="video/mp4">
                 </video>
                 <h1>Life in Haarlem</h1>
                 <h2>Harlem &#8259; Oosts</h2>
-                </a>
+
             </header>
 
             <section>
@@ -54,7 +56,7 @@
 
         <article id="secondarycontent">
             <header>
-                <h3> Haalxem Oosts Neighbourhood</h3>
+                <h3> Haarlem Oosts Neighbourhood</h3>
                 <p>
                     Haarlem Oosts is located in located in the east district of haarlem that is home to many shops, companie andn Tourust Destinations. it is the
 
@@ -96,109 +98,109 @@
             <footer><p><strong>For more information about haarlem please visit the website: </strong> <a href="https://www.visithaarlem.com/en">Haarlem Tourism Website</a></p></footer>
         </article>
 
-
+        <!--List of 10 sports with links to their website-->
         <article id="sportcontent">
-            
-          
-                <header>
-                    <h3>10 Sports in haarlem</h3>
-                </header>
-                <ol>
-                    <li>
-                        <a href="https://www.kungfuhaarlem.com/">Kung-Fu-Haarlem</a>
-                        <p>
-                            This is a self defence couse that can be taught at all ages. It helps impoves your physical condition, reaction speed, but also strenthen your mental resilieance
-                        </p>
-                        <p>
-                            If you wannt to joina club  that soely focuses on Taekwondo <a href="#referelcontent">click here</a>.
-                        </p>
-                        <img class="sportPic" src="./img/kungfu.png" alt="Kung-Fu-Haarlem" title="Kung-fu" />
-                    </li>
-
-                    <li>
-                        <a href="https://www.krassport.nl/"> Kras Sport</a>
-                        <p>
-                            This is a sport activity center that offers some activities that you can join.
-                            This includes cycling, skating, swimminig nad tennis.
-                        </p>
-                        <img class="sportPic" src="./img/cycling.png" alt="Cycling" title="Cycling" />
-                    </li>
-
-                    <li>
-                        <a href="https://sportclubhlc.jimdo.com/">Sports Club HLC</a>
-                        <p>
-                            This is gymnastics club that offers kids of any ages a chance to learn gymnastics, dance, acrogym and circus.
-                        </p>
-                        <img class="sportPic" src="./img/gymnastcis.png" alt="GymnasticsClub" title="GymClub" />
-                    </li>
-
-                    <li>
-                        <a href="https://www.delphis.nl/">Delphis Sport & Lifestyle</a>
-                        <p>
-                            Delphis is a club that focuse on strengthing your body and mind by doing yoga and incoperating it with other
-                            activities like boxing and weight training
-                        </p>
-                        <img class="sportPic" src="./img/yoga.png" alt="Delphis-Yoga" title="Yoga" />
-                    </li>
-
-                    <li>
-                        <a href="https://www.five21.nl/">Five21</a>
-                        <p>
-                            Five21 is a club that fousing on enhansing your fitnes and strengh by having cources in olympic weight lifting,
-                            boxing and brazillian jiu jitsu.
-                        </p>
-                        <img class="sportPic" src="./img/weightlifting.png" alt="Weightlifing" title="WeightLifting" />
-                    </li>
-
-                    <li>
-                        <a href="https://www.smilesport.com/over-ons/">Smilesport</a>
-                        <p>
-                            Smilesport is a gym that is owned by an owner that is a world champion Europian champion in karate. They offer yoga workouts,
-                            urban dance, kickfun workout and urban dance.
-                        </p>
-                        <img class="sportPic" src="./img/zumba.png" alt="Zumba" title="Zumba" />
-                    </li>
-
-                    <li>
-
-                        <a href="http://www.olympiahaarlem.nl/">Olympia Haarlem</a>
-                        <p>
-                            Olympia offers sports such as football, bandminton, basketball, softball, billards and even darts to enjoy.
-                        </p>
-                        <img class="sportPic" src="./img/basketball.png" alt="basketball" title="Baskeball" />
-                    </li>
 
 
-                    <li>
-                        <a href="https://www.ijsclubhaarlem.nl/">IJsclub voor Haarlem en omstreken</a>
-                        <p>
-                            If you want to learn how to skate or do nice laps then IJsclub is the club for you. The club was founded in 1869 with the aim of
-                            practicing and promoting skating for the yound and old.
-                        </p>
-                        <img class="sportPic" src="./img/iceScating.png" alt="ice skating" title="IceSkating" />
-                    </li>
+            <header>
+                <h3>10 Sports in haarlem</h3>
+            </header>
+            <ol>
+                <li>
+                    <a href="https://www.kungfuhaarlem.com/">Kung-Fu-Haarlem</a>
+                    <p>
+                        This is a self defence couse that can be taught at all ages. It helps impoves your physical condition, reaction speed, but also strenthen your mental resilieance
+                    </p>
+                    <p>
+                        If you wannt to joina club  that soely focuses on Taekwondo <a href="#referelcontent">click here</a>.
+                    </p>
+                    <img class="sportPic" src="./img/kungfu.png" alt="Kung-Fu-Haarlem" title="Kung-fu" />
+                </li>
 
-                    <li>
-                        <a href="https://nauwelaerts.nl/">Sport Acadamy Nauwelaerts</a>
-                        <p>
-                            Sport Acadamy Nauwelaerts offers many sports makes it possible for everyone to exercise.
-                            The range of sports include katate, judo, kickboxing, yoga and Taekwondo.
-                        </p>
-                        <img class="sportPic" src="./img/pilaties.png" alt="pilates" title="pilates" />
-                    </li>
+                <li>
+                    <a href="https://www.krassport.nl/"> Kras Sport</a>
+                    <p>
+                        This is a sport activity center that offers some activities that you can join.
+                        This includes cycling, skating, swimminig nad tennis.
+                    </p>
+                    <img class="sportPic" src="./img/cycling.png" alt="Cycling" title="Cycling" />
+                </li>
 
-                    <li>
-                        <a href="https://svdio.nl/">Sportvereniging Door Inspanning Overwinning</a>
-                        <p>
-                            This is a sports club that offers football, softball, darts and clover jackets. The club has been around for over 100 years and is
-                            available for anyone to join. If you are interest in joing a football club they are always looking for new members to tryout nad join.
-                        </p>
-                        <img class="sportPic" src="./img/football.png" alt="football" title="football" />
-                    </li>
-                </ol>
-                <footer><p><strong>For more information about sports in Haarlem please visit the website: </strong> <a href="https://www.meetup.com/cities/nl/haarlem/sports-fitness/">Sports in Haarlem</a></p></footer>
+                <li>
+                    <a href="https://sportclubhlc.jimdo.com/">Sports Club HLC</a>
+                    <p>
+                        This is gymnastics club that offers kids of any ages a chance to learn gymnastics, dance, acrogym and circus.
+                    </p>
+                    <img class="sportPic" src="./img/gymnastcis.png" alt="GymnasticsClub" title="GymClub" />
+                </li>
+
+                <li>
+                    <a href="https://www.delphis.nl/">Delphis Sport & Lifestyle</a>
+                    <p>
+                        Delphis is a club that focuse on strengthing your body and mind by doing yoga and incoperating it with other
+                        activities like boxing and weight training
+                    </p>
+                    <img class="sportPic" src="./img/yoga.png" alt="Delphis-Yoga" title="Yoga" />
+                </li>
+
+                <li>
+                    <a href="https://www.five21.nl/">Five21</a>
+                    <p>
+                        Five21 is a club that fousing on enhansing your fitnes and strengh by having cources in olympic weight lifting,
+                        boxing and brazillian jiu jitsu.
+                    </p>
+                    <img class="sportPic" src="./img/weightlifting.png" alt="Weightlifing" title="WeightLifting" />
+                </li>
+
+                <li>
+                    <a href="https://www.smilesport.com/over-ons/">Smilesport</a>
+                    <p>
+                        Smilesport is a gym that is owned by an owner that is a world champion Europian champion in karate. They offer yoga workouts,
+                        urban dance, kickfun workout and urban dance.
+                    </p>
+                    <img class="sportPic" src="./img/zumba.png" alt="Zumba" title="Zumba" />
+                </li>
+
+                <li>
+
+                    <a href="http://www.olympiahaarlem.nl/">Olympia Haarlem</a>
+                    <p>
+                        Olympia offers sports such as football, bandminton, basketball, softball, billards and even darts to enjoy.
+                    </p>
+                    <img class="sportPic" src="./img/basketball.png" alt="basketball" title="Baskeball" />
+                </li>
+
+
+                <li>
+                    <a href="https://www.ijsclubhaarlem.nl/">IJsclub voor Haarlem en omstreken</a>
+                    <p>
+                        If you want to learn how to skate or do nice laps then IJsclub is the club for you. The club was founded in 1869 with the aim of
+                        practicing and promoting skating for the yound and old.
+                    </p>
+                    <img class="sportPic" src="./img/iceScating.png" alt="ice skating" title="IceSkating" />
+                </li>
+
+                <li>
+                    <a href="https://nauwelaerts.nl/">Sport Acadamy Nauwelaerts</a>
+                    <p>
+                        Sport Acadamy Nauwelaerts offers many sports makes it possible for everyone to exercise.
+                        The range of sports include katate, judo, kickboxing, yoga and Taekwondo.
+                    </p>
+                    <img class="sportPic" src="./img/pilaties.png" alt="pilates" title="pilates" />
+                </li>
+
+                <li>
+                    <a href="https://svdio.nl/">Sportvereniging Door Inspanning Overwinning</a>
+                    <p>
+                        This is a sports club that offers football, softball, darts and clover jackets. The club has been around for over 100 years and is
+                        available for anyone to join. If you are interest in joing a football club they are always looking for new members to tryout nad join.
+                    </p>
+                    <img class="sportPic" src="./img/football.png" alt="football" title="football" />
+                </li>
+            </ol>
+            <footer><p><strong>For more information about sports in Haarlem please visit the website: </strong> <a href="https://www.meetup.com/cities/nl/haarlem/sports-fitness/">Sports in Haarlem</a></p></footer>
         </article>
-
+        <!--Article with information about taekwondo and also a link to a club -->
         <aside id="referelcontent">
             <header>
                 <h3>Taekwondo</h3>
@@ -211,27 +213,29 @@
             <footer><p><strong>For more information about Taekwondo please visit the website: </strong> <a href="https://www.taekwon.nl/taekwondo/">Taekwondo Website</a></p></footer>
         </aside>
 
+
+        <!--A contact form to sent a message with your name and email-->
         <article id="contactcontent">
             <header>
                 <h3>ContactPage</h3>
             </header>
-            
-                <form action="http://witan.nl/inholland/testform.php" method="post">
-                    <fieldset>
-                        <legend>Form</legend>
-                        <label for="name">Name</label>
-                        <input type="text" id="name" name="name" placeholder="Your name..">
 
-                        <label for="email">Email</label>
-                        <input type="email" id="email" name="email" placeholder="Your email..">
+            <form action="http://witan.nl/inholland/testform.php" method="post">
+                <fieldset>
+                    <legend>Form</legend>
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" placeholder="Your name..">
 
-                        <label for="message">Subject</label>
-                        <textarea id="message" name="message" placeholder="Write message..." ></textarea>
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="Your email..">
 
-                        <input type="submit" value="Submit">
-                    </fieldset>
-                </form>
-            
+                    <label for="message">Subject</label>
+                    <textarea id="message" name="message" placeholder="Write message..."></textarea>
+
+                    <input type="submit" value="Submit">
+                </fieldset>
+            </form>
+
         </article>
         <footer><p><strong>&copy; Oluwaseyifunmi Gandonu </strong></p></footer>
     </main>
